@@ -1,0 +1,98 @@
+name: bullsea
+description: Web3 profile
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+    sdk: '>=2.18.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+    flutter:
+        sdk: flutter
+    get: ^4.6.5
+    http: ^0.13.5
+    provider: ^6.0.5
+    # firebase
+    firebase_core: ^2.9.0
+    firebase_auth: ^4.4.0
+    firebase_messaging: ^14.4.0
+    flutter_local_notifications: ^13.0.0
+    # social login
+    google_sign_in: ^5.4.2
+    twitter_login: ^4.2.3
+    sign_in_with_apple: ^4.1.0
+    firebase_auth_oauth: ^1.2.0
+    # wallet connect
+    walletconnect_dart: ^0.0.11
+    web3dart: ^2.4.1
+    # storage
+    shared_preferences: ^2.1.0
+    hive: ^2.2.3
+    hive_flutter: ^1.1.0
+    # other
+    simple_moment: ^1.1.1
+    url_launcher: ^6.1.10
+    cupertino_icons: ^1.0.2
+
+dev_dependencies:
+    flutter_test:
+        sdk: flutter
+    flutter_lints: ^2.0.0
+    build_runner: ^2.3.3
+    hive_generator: ^2.0.0
+    flutter_launcher_icons: ^0.13.0
+
+flutter:
+    uses-material-design: true
+    assets:
+        - asset/images/
+    fonts:
+        - family: Roobert
+          fonts:
+              - asset: asset/fonts/Roobert-Regular.otf
+        - family: RoobertSemiBold
+          fonts:
+              - asset: asset/fonts/Roobert-SemiBold.otf
+        - family: RoobertBold
+          fonts:
+              - asset: asset/fonts/Roobert-Bold.otf
+        - family: RoobertMedium
+          fonts:
+              - asset: asset/fonts/Roobert-Medium.otf
+        - family: RoobertLight
+          fonts:
+              - asset: asset/fonts/Roobert-Light.otf
+        # - family: BSIcons
+        #   fonts:
+        #       - asset: assets/fonts/BS-Icons.ttf
+
+flutter_icons:
+    android: true
+    ios: true
+    image_path: 'asset/images/app-icon.png'
+    image_path_android: 'asset/images/app-icon.png'
+    # adaptive_icon_foreground: 'assets/images/app-icon-android.png'
+    # adaptive_icon_background: '#00BFA5'
+    remove_alpha_ios: true

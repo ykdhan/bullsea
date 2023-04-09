@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "407622917756",
+    "project_id": "bullsea-io",
+    "storage_bucket": "bullsea-io.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407622917756:android:eea85bd7ac80b13d0173f9",
+        "android_client_info": {
+          "package_name": "com.example.bullsea"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "407622917756-5k8s3unpqrrcvnpdtn8jd8klefu1el8l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjqEde8JYfBiz0zsXkN6rGSk8KLeMDgtI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "407622917756-5k8s3unpqrrcvnpdtn8jd8klefu1el8l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
